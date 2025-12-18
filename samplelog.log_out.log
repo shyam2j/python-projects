@@ -1,0 +1,12 @@
+2025-12-12 21:17:08.650 [warning] [Git][getBranch] No such branch: main
+2025-12-12 21:17:08.712 [info] > git status -z -uall [59ms]
+2025-12-12 21:17:08.712 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [56ms]
+2025-12-12 21:18:03.509 [info] > git check-ignore -v -z --stdin [73ms]
+2025-12-12 21:18:05.884 [info] > git check-ignore -v -z --stdin [89ms]
+2025-12-12 21:18:06.526 [info] > git check-ignore -v -z --stdin [76ms]
+2025-12-12 21:18:07.117 [info] > git check-ignore -v -z --stdin [66ms]
+2025-12-12 21:18:08.201 [info] > git check-ignore -v -z --stdin [79ms]
+2025-12-12 21:18:58.671 [info] > git config --get commit.template [60ms]
+2025-12-12 21:18:58.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [60ms]
+2025-12-12 21:18:58.678 [warning] [Git][getBranch] No such branch: main
+2025-12-12 21:18:58.741 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [55ms]
