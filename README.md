@@ -1,3 +1,5 @@
+Agentic Log Remover
+
 A small one-shot CLI utility to remove or deduplicate lines in logfile(s) using simple natural-language instructions. Designed for local use with minimal output: one concise status line (written to agent_output.txt) and one output file per run (<basename>_out.log). No backups are kept (previous outputs are overwritten) and legacy files from older runs are removed automatically.
 
 ✅ Features
